@@ -1,0 +1,670 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<title>Our Blog</title>
+		<!-- styles-->
+		<link rel="stylesheet" href="styles1.min.css"/>
+		<!-- web-font loader-->
+		<script>
+			WebFontConfig = {
+
+				google: {
+
+					families: ['Nunito+Sans:300,400,500,700,900', 'Quicksand:300,400,500,700'],
+
+				}
+
+			}
+
+			function font() {
+
+				var wf = document.createElement('script')
+
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+				wf.type = 'text/javascript'
+				wf.async = 'true'
+
+				var s = document.getElementsByTagName('script')[0]
+
+				s.parentNode.insertBefore(wf, s)
+
+			}
+
+			font()
+		</script>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<!-- menu dropdown start-->
+			<div class="menu-dropdown">
+				<div class="menu-dropdown__inner" data-value="start">
+					<div class="screen screen--start">
+						<div class="screen__item screen--trigger" data-category="home"><span>Home</span><span>
+							<svg class="icon">
+								<use xlink:href="#chevron"></use>
+							</svg></span></div>
+						<div class="screen__item screen--trigger" data-category="pages"><span>Pages</span><span>
+							<svg class="icon">
+								<use xlink:href="#chevron"></use>
+							</svg></span></div>
+						<div class="screen__item item--active"><a class="screen__link" href="blog.html">Blog</a></div>
+						<div class="screen__item screen--trigger" data-category="shop"><span>Shop</span><span>
+							<svg class="icon">
+								<use xlink:href="#chevron"></use>
+							</svg></span></div>
+						<div class="screen__item"><a class="screen__link" href="contacts.html">Contacts</a></div>
+						<div class="screen__item screen--trigger" data-category="elements"><span>Elements</span><span>
+							<svg class="icon">
+								<use xlink:href="#chevron"></use>
+							</svg></span></div>
+						<div class="screen__item screen--trigger" data-category="language"><span>Language</span><span>
+							<svg class="icon">
+								<use xlink:href="#chevron"></use>
+							</svg></span></div>
+						<ul class="screen__socials">
+							<li><a class="item--facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a class="item--twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a class="item--youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+							<li><a class="item--instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul><a class="screen__button" href="#">Tickets</a>
+					</div>
+				</div>
+				<div class="menu-dropdown__inner" data-value="home">
+					<div class="screen screen--sub">
+						<div class="screen__heading">
+							<h6 class="screen__back">
+								<svg class="icon">
+									<use xlink:href="#chevron-left"></use>
+								</svg> <span>Home</span>
+							</h6>
+						</div>
+						<div class="screen__item"><a class="screen__link" href="index.html">Home Zoo</a></div>
+						<div class="screen__item"><a class="screen__link" href="front_2.html">Home Aquarium</a></div>
+						<div class="screen__item"><a class="screen__link" href="front_3.html">Home Terrarium</a></div>
+						<div class="screen__item"><a class="screen__link" href="front_4.html">Home Protections</a></div>
+						<div class="screen__item"><a class="screen__link" href="front_5.html">Home Safari</a></div>
+					</div>
+				</div>
+				<div class="menu-dropdown__inner" data-value="pages">
+					<div class="screen screen--sub">
+						<div class="screen__heading">
+							<h6 class="screen__back">
+								<svg class="icon">
+									<use xlink:href="#chevron-left"></use>
+								</svg> <span>Pages</span>
+							</h6>
+						</div>
+						<div class="screen__item"><a class="screen__link" href="about.html">About</a></div>
+						<div class="screen__item"><a class="screen__link" href="services.html">Services</a></div>
+						<div class="screen__item"><a class="screen__link" href="blog-details.html">Blog Details</a></div>
+						<div class="screen__item"><a class="screen__link" href="gallery.html">Gallery</a></div>
+						<div class="screen__item"><a class="screen__link" href="faq.html">Faq</a></div>
+						<div class="screen__item"><a class="screen__link" href="map.html">Map</a></div>
+						<div class="screen__item"><a class="screen__link" href="404.html">404</a></div>
+					</div>
+				</div>
+				<div class="menu-dropdown__inner" data-value="shop">
+					<div class="screen screen--sub">
+						<div class="screen__heading">
+							<h6 class="screen__back">
+								<svg class="icon">
+									<use xlink:href="#chevron-left"></use>
+								</svg> <span>Shop</span>
+							</h6>
+						</div>
+						<div class="screen__item"><a class="screen__link" href="shop-catalog.html">Shop Catalog</a></div>
+						<div class="screen__item"><a class="screen__link" href="shop-product.html">Shop Product</a></div>
+						<div class="screen__item"><a class="screen__link" href="shop-cart.html">Shop Cart</a></div>
+						<div class="screen__item"><a class="screen__link" href="shop-checkout.html">Shop Checkout</a></div>
+						<div class="screen__item"><a class="screen__link" href="shop-account.html">Shop Account</a></div>
+					</div>
+				</div>
+				<div class="menu-dropdown__inner" data-value="elements">
+					<div class="screen screen--sub">
+						<div class="screen__heading">
+							<h6 class="screen__back">
+								<svg class="icon">
+									<use xlink:href="#chevron-left"></use>
+								</svg> <span>Elements</span>
+							</h6>
+						</div>
+					
+					</div>
+				</div>
+				<div class="menu-dropdown__inner" data-value="language">
+					<div class="screen screen--sub">
+						<div class="screen__heading">
+							<h6 class="screen__back">
+								<svg class="icon">
+									<use xlink:href="#chevron-left"></use>
+								</svg> <span>Language</span>
+							</h6>
+						</div>
+						<div class="screen__item"><a class="screen__link" href="javascript:void(0);">English</a></div>
+						<div class="screen__item"><a class="screen__link" href="javascript:void(0);">French</a></div>
+						<div class="screen__item"><a class="screen__link" href="javascript:void(0);">Spanish</a></div>
+						<div class="screen__item"><a class="screen__link" href="javascript:void(0);">Deutsch</a></div>
+						<div class="screen__item"><a class="screen__link" href="javascript:void(0);">Russian</a></div>
+					</div>
+				</div>
+			</div>
+			<!-- menu dropdown end-->
+			<!-- header start-->
+			<header class="header header-common">
+				<div class="header__top">
+					<div class="row align-items-center">
+						<div class="col-6 col-lg-4"><a class="logo" href="index.html"><img class="logo__img" src="logo_zoo_black.png" alt="logo"/></a></div>
+						<div class="col-6 col-lg-8 d-flex justify-content-end">
+							<!-- main menu start-->
+							<ul class="main-menu">
+								<li class="main-menu__item main-menu__item--has-child"><a class="main-menu__link" href="javascript:void(0);"><span>Home</span></a>
+									<!-- sub menu start-->
+									<ul class="main-menu__sub-list">
+										<li><a href="index.html"><span>Home Zoo</span></a></li>
+										<li><a href="front_2.html"> <span>Home Aquarium</span></a></li>
+										<li><a href="front_3.html"><span>Home Terrarium</span></a></li>
+										<li><a href="front_4.html"><span>Home Animal Protections</span></a></li>
+										<li><a href="front_5.html"><span>Home Safari</span></a></li>
+										<li><a href="front_6.html"><span>Home Shop</span></a></li>
+									</ul>
+									<!-- sub menu end-->
+								</li>
+								<li class="main-menu__item main-menu__item--has-child"><a class="main-menu__link" href="javascript:void(0);"><span>Pages</span></a>
+									<!-- sub menu start-->
+									<ul class="main-menu__sub-list sub-list--style-2">
+										<li><a href="front_2.html"><span>About</span></a></li>
+										<li><a href="blog.html"><span>Blog Details</span></a></li>
+										<li><a href="index.html"><span>Gallery v.2</span></a></li>
+						                <li><a href="index2.html"><span>Events</span></a></li>
+										<li><a href="map.html"><span>Map</span></a></li>
+									</ul>
+									<!-- sub menu end-->
+								</li>
+								<li class="main-menu__item main-menu__item--active"><a class="main-menu__link" href="blog.html"><span>Blog</span></a></li>
+                                <li class="main-menu__item main-menu__item--has-child">
+                                </li>
+								<li class="main-menu__item"><a class="main-menu__link" href="contacts.html"><span>Contacts</span></a></li>
+								<li class="main-menu__item main-menu__item--has-child"><a class="main-menu__link" href="javascript:void(0);"><span>Elements</span></a>	
+								</li>
+							</ul>
+							<!-- main menu end--><a class="header__button" href="#">Tickets</a>
+							<!-- menu-trigger start-->
+							<div class="hamburger">
+								<div class="hamburger-box">
+									<div class="hamburger-inner"></div>
+								</div>
+							</div>
+							<!-- menu-trigger end-->
+						</div>
+					</div>
+				</div>
+				<div class="header__lower">
+					<div class="row">
+						<div class="col-auto d-flex align-items-center">
+							<ul class="lower-menu">
+								<li class="lower-menu__item"><a class="lower-menu__link" href="#">Membership</a></li>
+								<li class="lower-menu__item"><a class="lower-menu__link" href="#">Education</a></li>
+								<li class="lower-menu__item"><a class="lower-menu__link" href="map.html">Map Zoo</a></li>
+								<li class="lower-menu__item"><a class="lower-menu__link" href="front_2.html">Events</a></li>
+								<li class="lower-menu__item"><a class="lower-menu__link" href="#">Donate</a></li>
+								<li class="lower-menu__item"><a class="lower-menu__link" href="#">Foundation</a></li>
+							</ul>
+							<!-- lang select start-->
+							<ul class="lang-select">
+								<li class="lang-select__item lang-select__item--active"><span>English</span>
+									<ul class="lang-select__sub-list">
+										<li><a href="#">French</a></li>
+										<li><a href="#">Spanish</a></li>
+										<li><a href="#">Deutsch</a></li>
+										<li><a href="#">Russian</a></li>
+									</ul>
+								</li>
+							</ul>
+							<!-- lang select end-->
+							<ul class="header__socials">
+								<li><a class="item--facebook" href="https://demo.artureanec.com/html/wild-world/blog.html#">
+									<i class="fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a class="item--twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a class="item--youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								<li><a class="item--instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- header end-->
+			<main class="main">
+				<!-- promo start-->
+				<section class="promo-primary">
+					<picture>
+						<source srcset="blog.jpg" media="(min-width: 992px)"/><img class="img--bg" src="blog.jpg" alt="img"/>
+					</picture>
+					<div class="container">
+						<div class="row">
+							<div class="col-auto">
+								<div class="align-container">
+									<div class="align-container__item"><span class="promo-primary__pre-title">Wild World</span>
+										<h1 class="promo-primary__title"><span>Our</span> <span>Blog</span></h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- promo end-->
+				<!-- blog start-->
+				<section class="section blog">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-xl-9">
+								<div class="row">
+									<div class="col-12">
+										<div class="blog-item">
+											<div class="blog-item__img"><img class="img--bg" src="blog_1.jpg" alt="blog"/>
+												<div class="blog-item__date"><span>02</span><span>Nov</span></div>
+											</div>
+											<h4 class="blog-item__title"><a href="#">Animal friendships at Zoo Berlin</a></h4>
+											<p>To celebrate the 40th birthday of beloved cartoon cat Garfield, who lives in not-so-perfect harmony with dog Odie and human Jon, we are dedicating this blog entry to the curious cohabitations and fascinating friendships that have arisen over the years among animals at Zoo Berlin. </p>
+											<div class="blog-item__details">
+												<div class="row align-items-center">
+													<div class="col-8">
+														<div class="blog-item__author">
+															<div class="blog-item__author-img"><img class="img--bg" src="author_1.png" alt="author"/></div>
+															<div class="blog-item__author-name">Lisa Lee</div>
+														</div>
+													</div>
+													<div class="col-4 text-right">
+														<div class="blog-item__comments">
+															<svg class="icon">
+																<use xlink:href="#comment"></use>
+															</svg><span>250</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="blog-item">
+											<div class="blog-item__img"><img class="img--bg" src="blog_2.jpg" alt="blog"/>
+												<div class="blog-item__date"><span>03</span><span>Nov</span></div>
+											</div>
+											<h4 class="blog-item__title"><a href="#">Making love, not war</a></h4>
+											<p>To celebrate the 40th birthday of beloved cartoon cat Garfield, who lives in not-so-perfect harmony with dog Odie and human Jon, we are dedicating this blog entry to the curious cohabitations and fascinating friendships that have arisen over the years among animals at Zoo Berlin. </p>
+											<div class="blog-item__details">
+												<div class="row align-items-center">
+													<div class="col-8">
+														<div class="blog-item__author">
+															<div class="blog-item__author-img"><img class="img--bg" src="author_2.png" alt="author"/></div>
+															<div class="blog-item__author-name">Jack Lambert</div>
+														</div>
+													</div>
+													<div class="col-4 text-right">
+														<div class="blog-item__comments">
+															<svg class="icon">
+																<use xlink:href="#comment"></use>
+															</svg><span>250</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="blog-item blog-item--style-2">
+											<h4 class="blog-item__title"><a href="#">Happy birthday, Hertha!</a></h4>
+											<p>To celebrate the 40th birthday of beloved cartoon cat Garfield, who lives in not-so-perfect harmony with dog Odie and human Jon, we are dedicating this blog entry to the curious cohabitations and fascinating friendships that have arisen over the years among animals at Zoo Berlin. </p>
+											<div class="blog-item__details">
+												<div class="row align-items-center">
+													<div class="col-8">
+														<div class="blog-item__author">
+															<div class="blog-item__author-img"><img class="img--bg" src="author_3.png" alt="author"/></div>
+															<div class="blog-item__author-name">Rick Garrix</div>
+														</div>
+													</div>
+													<div class="col-4 text-right">
+														<div class="blog-item__comments">
+															<svg class="icon">
+																<use xlink:href="#comment"></use>
+															</svg><span>250</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="blog-item">
+											<div class="blog-item__img"><img class="img--bg" src="blog_3.jpg" alt="blog"/>
+												<div class="blog-item__date"><span>04</span><span>Nov</span></div>
+											</div>
+											<h4 class="blog-item__title"><a href="#">For she’s a jolly good fellow</a></h4>
+											<p>To celebrate the 40th birthday of beloved cartoon cat Garfield, who lives in not-so-perfect harmony with dog Odie and human Jon, we are dedicating this blog entry to the curious cohabitations and fascinating friendships that have arisen over the years among animals at Zoo Berlin. </p>
+											<div class="blog-item__details">
+												<div class="row align-items-center">
+													<div class="col-8">
+														<div class="blog-item__author">
+															<div class="blog-item__author-img"><img class="img--bg" src="author_1.png" alt="author"/></div>
+															<div class="blog-item__author-name">Lisa Lee</div>
+														</div>
+													</div>
+													<div class="col-4 text-right">
+														<div class="blog-item__comments">
+															<svg class="icon">
+																<use xlink:href="#comment"></use>
+															</svg><span>250</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="blog-item">
+											<div class="blog-item__img"><img class="img--bg" src="blog_4.jpg" alt="blog"/>
+												<div class="blog-item__date"><span>05</span><span>Nov</span></div>
+											</div>
+											<h4 class="blog-item__title"><a href="#">Animal friendships at Zoo Berlin</a></h4>
+											<p>To celebrate the 40th birthday of beloved cartoon cat Garfield, who lives in not-so-perfect harmony with dog Odie and human Jon, we are dedicating this blog entry to the curious cohabitations and fascinating friendships that have arisen over the years among animals at Zoo Berlin. </p>
+											<div class="blog-item__details">
+												<div class="row align-items-center">
+													<div class="col-8">
+														<div class="blog-item__author">
+															<div class="blog-item__author-img"><img class="img--bg" src="author_1.png" alt="author"/></div>
+															<div class="blog-item__author-name">Lisa Lee</div>
+														</div>
+													</div>
+													<div class="col-4 text-right">
+														<div class="blog-item__comments">
+															<svg class="icon">
+																<use xlink:href="#comment"></use>
+															</svg><span>250</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 text-center">
+										<ul class="pagination blog__pagination">
+											<li class="pagination__item pagination__item--prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span>Back</span>
+											</li>
+											<li class="pagination__item"><span>1</span></li>
+											<li class="pagination__item pagination__item--active"><span>2</span></li>
+											<li class="pagination__item"><span>3</span></li>
+											<li class="pagination__item"><span>4</span></li>
+											<li class="pagination__item"><span>5</span></li>
+											<li class="pagination__item pagination__item--next"><span>Next</span><i class="fa fa-angle-right" aria-hidden="true"></i>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 col-xl-3">
+								<div class="blog__inner-block bottom-50">
+									<form class="search-form" action="javascript:void(0);">
+										<input class="search-form__input" type="search" name="search" placeholder="Search Here"/>
+										<button class="search-form__submit" type="submit">
+											<svg class="icon">
+												<use xlink:href="#search"></use>
+											</svg>
+										</button>
+									</form>
+								</div>
+								<div class="blog__inner-block bottom-50">
+									<h5 class="blog__title">Categories</h5>
+									<ul class="categories-list">
+										<li class="categories-list__item categories-list__item--active"><span class="categories-list__name">Our Employees</span><span class="categories-list__count">15</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">Zoo News</span><span class="categories-list__count">29</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">Insider Tips from the Zoo</span><span class="categories-list__count">67</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">News from the Aquarium</span><span class="categories-list__count">105</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">News from the Terrarium</span><span class="categories-list__count">38</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">Animal Babies</span><span class="categories-list__count">21</span></li>
+									</ul>
+								</div>
+								<div class="blog__inner-block bottom-50">
+									<h5 class="blog__title">Latest Posts</h5>
+									<div class="latest-item">
+										<div class="row align-items-center">
+											<div class="col-4">
+												<div class="latest-item__img"><img class="img--bg" src="latest_1.jpg" alt="img"/></div>
+											</div>
+											<div class="col-8">
+												<h6 class="latest-item__title"><a href="#">Scottish wildcat kitten is arrival to the zoo</a></h6>
+												<div class="latest-item__details">
+													<div class="row">
+														<div class="col-7">
+															<div class="latest-item__date">11 nov 2018</div>
+														</div>
+														<div class="col-5">
+															<div class="latest-item__comments">
+																<svg class="icon">
+																	<use xlink:href="#comment"></use>
+																</svg><span>250</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="latest-item">
+										<div class="row align-items-center">
+											<div class="col-4">
+												<div class="latest-item__img"><img class="img--bg" src="latest_2.jpg" alt="img"/></div>
+											</div>
+											<div class="col-8">
+												<h6 class="latest-item__title"><a href="#">Team Rickshaw visits the zoo for Children </a></h6>
+												<div class="latest-item__details">
+													<div class="row">
+														<div class="col-7">
+															<div class="latest-item__date">11 nov 2018</div>
+														</div>
+														<div class="col-5">
+															<div class="latest-item__comments">
+																<svg class="icon">
+																	<use xlink:href="#comment"></use>
+																</svg><span>250</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="latest-item">
+										<div class="row align-items-center">
+											<div class="col-4">
+												<div class="latest-item__img"><img class="img--bg" src="latest_3.jpg" alt="img"/></div>
+											</div>
+											<div class="col-8">
+												<h6 class="latest-item__title"><a href="#">Birth of rare gibbon adds to record baby</a></h6>
+												<div class="latest-item__details">
+													<div class="row">
+														<div class="col-7">
+															<div class="latest-item__date">11 nov 2018</div>
+														</div>
+														<div class="col-5">
+															<div class="latest-item__comments">
+																<svg class="icon">
+																	<use xlink:href="#comment"></use>
+																</svg><span>250</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="latest-item">
+										<div class="row align-items-center">
+											<div class="col-4">
+												<div class="latest-item__img"><img class="img--bg" src="latest_4.jpg" alt="img"/></div>
+											</div>
+											<div class="col-8">
+												<h6 class="latest-item__title"><a href="#">Christmas shopping at Chester Zoo</a></h6>
+												<div class="latest-item__details">
+													<div class="row">
+														<div class="col-7">
+															<div class="latest-item__date">11 nov 2018</div>
+														</div>
+														<div class="col-5">
+															<div class="latest-item__comments">
+																<svg class="icon">
+																	<use xlink:href="#comment"></use>
+																</svg><span>250</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="latest-item">
+										<div class="row align-items-center">
+											<div class="col-4">
+												<div class="latest-item__img"><img class="img--bg" src="latest_5.jpg" alt="img"/></div>
+											</div>
+											<div class="col-8">
+												<h6 class="latest-item__title"><a href="#">There's always something new at Zoo</a></h6>
+												<div class="latest-item__details">
+													<div class="row">
+														<div class="col-7">
+															<div class="latest-item__date">11 nov 2018</div>
+														</div>
+														<div class="col-5">
+															<div class="latest-item__comments">
+																<svg class="icon">
+																	<use xlink:href="#comment"></use>
+																</svg><span>250</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="blog__inner-block bottom-50">
+									<h5 class="blog__title">Archive</h5>
+									<ul class="categories-list">
+										<li class="categories-list__item categories-list__item--active"><span class="categories-list__name">October</span><span class="categories-list__count">2017</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">November</span><span class="categories-list__count">2018</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">December</span><span class="categories-list__count">2018</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">January</span><span class="categories-list__count">2018</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">February</span><span class="categories-list__count">2019</span></li>
+										<li class="categories-list__item"><span class="categories-list__name">March</span><span class="categories-list__count">2019</span></li>
+									</ul>
+								</div>
+								<div class="blog__inner-block bottom-50">
+									<h5 class="blog__title">Instagram <i class="fa fa-instagram" aria-hidden="true"></i>
+									</h5>
+									<div class="footer-instagram"><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-1.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-2.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-3.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-4.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-5.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+										<div class="footer-instagram__img"><img class="img--bg" src="f_ig-6.jpg" alt="ig"/></div></a></div>
+								</div>
+								<div class="blog__inner-block bottom-50">
+									<h5 class="blog__title">Tags</h5>
+									<div class="tags tags--style-2"><a class="tags__item" href="#">Animal</a><a class="tags__item" href="#">Monkey</a><a class="tags__item" href="#">Zoo</a><a class="tags__item" href="#">Kids</a><a class="tags__item" href="#">Lion</a><a class="tags__item" href="#">Giraffe</a></div>
+								</div>
+								<div class="subscribe-block">
+									<h5 class="subscribe-block__title">Subscribe Now</h5>
+									<p>Lorem ipsum dolor sit amet, conse ctetur adipisicing mit</p>
+									<form class="form subscribe-form" action="javascript:void(0);">
+										<input class="form__field" type="email" placeholder="Enter your mail here..."/>
+										<input class="form__submit" type="submit" value="Subscribe"/>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- blog end-->
+			</main>
+			<!-- footer start-->
+			<footer class="footer"><img class="footer__bg img--bg" src="background__layout.png" alt="bg"/>
+				<div class="container">
+					<div class="row bottom-50">
+						<div class="col-md-5 col-xl-4 text-center text-md-left"><a class="logo logo--footer" href="index.html"><img class="logo__img" src="logo_zoo_white.png" alt="logo"/></a>
+							<div class="footer__details">
+								<p><strong>Location:</strong> <span>av. Washington 165, NY CA 54003</span></p>
+								<p><strong>Phone:</strong> <a href="tel:+31859644725">+31 85 964 47 25</a> <a href="tel:+31859644725">+31 65 792 63 11</a></p>
+								<p><strong>Email:</strong> <a href="mailto:info@animalsworld.com">info@animalsworld.com</a></p>
+								<p><strong>Openning hours:</strong> <span>9:00 AM - 5:00 PM</span></p>
+							</div>
+							<ul class="socials">
+								<li class="socials__item"><a class="socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li class="socials__item"><a class="socials__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li class="socials__item"><a class="socials__link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								<li class="socials__item"><a class="socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-md-7 col-xl-5 d-none d-md-block">
+							<h6 class="footer__title">Menu & Links</h6>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Home</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Membership </a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Education</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Animals</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Support</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Schedule</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Events</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Gallery</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Contacts</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Donate</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Foundation</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Tickets</a></li>
+							</ul>
+							<ul class="footer-submenu">
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Documents</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Association of Zoo</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Aqurium</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Terrarium</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Terra Park</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Cooperation</a></li>
+								<li class="footer-submenu__item"><a class="footer-submenu__link" href="#">Libriry</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 d-none d-xl-block">
+							<h6 class="footer__title"><span>Instagram</span> <i class="fa fa-instagram" aria-hidden="true"></i>
+							</h6>
+							<div class="footer-instagram"><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-1.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-2.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-3.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-4.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-5.jpg" alt="ig"/></div></a><a class="footer-instagram__item" href="#">
+								<div class="footer-instagram__img"><img class="img--bg" src="f_ig-6.jpg" alt="ig"/></div></a></div>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-sm-6 text-center text-sm-left">
+							<div class="footer-privacy"><a class="footer-privacy__link" href="#">Privacy Policy</a><span class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="#">Term and Condision</a></div>
+						</div>
+						<div class="col-sm-6 text-center text-sm-right"><a class="footer__link" href="#"><img src="footer-logo.png" alt="logo"/></a></div>
+					</div>
+				</div>
+			</footer>
+			<!-- footer end-->
+		</div>
+		<!-- libs-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/libs.min.js"></script>
+		<!-- scripts-->
+		<script src="js/common.js"></script>
+		<div style="display: none"><?xml version="1.0" encoding="utf-8"?>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<symbol viewBox="0 0 488.147 512" id="adult" xmlns="http://www.w3.org/2000/svg">
+	</body>
+</html>
